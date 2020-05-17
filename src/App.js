@@ -9,7 +9,7 @@ function App() {
   return (
     <div className = "wrapper">
 
-      <AppBar className = "appbar" position="static" style={{background: '#24EBBE'}}>
+      <AppBar className = "appbar" position="static" style={{background: '#4E84F0'}}>
       <Toolbar className = "appbar">
       <div className = "header">
         <div className = "home-button"> Home </div>
@@ -25,17 +25,31 @@ function App() {
       </Toolbar>
       </AppBar>
 
+      <div className = "home-view">
       <div className = "container">
-
         <img className = "propic" src= {propic} alt ="propic"/>
+
+        <div className = "text">
         <h1>
           Hello I am Brian Li!
         </h1>
         <h2>
-          Welcome to my Personal Website!
+          Welcome to my Personal Website
         </h2>
+        <h3>
+          I am a Junior at Duke University studying CS and Mathematics. I am passionate about and have experience in iOS and MERN Stack development.
+        </h3>
+        <h4>
+          I am unafraid of challenges and love working on thought-provoking projects.
+        </h4>
+        </div>
       </div>
-
+      <div className = "link-icons">
+        <img className = "linkedin"/>
+        <img className = "github"/>
+        <img className = "gitlab"/>
+      </div>
+      </div>
     </div>
   );
 }
