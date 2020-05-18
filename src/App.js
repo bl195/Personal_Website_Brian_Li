@@ -4,6 +4,9 @@ import './App.css';
 import AppBar from '@material-ui/core/AppBar';
 import { Toolbar } from '@material-ui/core';
 import propic from './Resources/propic.png'
+import linkedinpic from './Resources/linkedin_icon.png'
+import githubpic from './Resources/github_icon.png'
+import gitlabpic from './Resources/gitlab_icon.png'
 
 function App() {
   return (
@@ -40,14 +43,16 @@ function App() {
           I am a Junior at Duke University studying CS and Mathematics. I am passionate about and have experience in iOS and MERN Stack development.
         </h3>
         <h4>
-          I am unafraid of challenges and love working on thought-provoking projects.
+          I enjoy challenges and tackling thought-provoking projects
         </h4>
-        </div>
+        <div className = "link-icons">
+        <img className = "linkedin" src = {linkedinpic} alt ="linkedinpic"/>
+        <div className = "divider2"/>
+        <img className = "github" src={githubpic} alt = "githubpic"/>
+        <div className = "divider2"/>
+        <img className = "gitlab" src ={gitlabpic} alt='gitlabpic'/>
       </div>
-      <div className = "link-icons">
-        <img className = "linkedin"/>
-        <img className = "github"/>
-        <img className = "gitlab"/>
+        </div>
       </div>
       </div>
     </div>
