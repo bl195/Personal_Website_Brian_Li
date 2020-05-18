@@ -9,6 +9,7 @@ import githubpic from './Resources/github_icon.png'
 import gitlabpic from './Resources/gitlab_icon.png'
 
 function App() {
+
   return (
     <div className = "wrapper">
 
@@ -46,12 +47,18 @@ function App() {
           I enjoy challenges and tackling thought-provoking projects
         </h4>
         <div className = "link-icons">
+        <a href="https://www.linkedin.com/in/brianli314/">
         <img className = "linkedin" src = {linkedinpic} alt ="linkedinpic"/>
+        </a>
         <div className = "divider2"/>
+        < a href='https://github.com/bl195'>
         <img className = "github" src={githubpic} alt = "githubpic"/>
+        </a>
         <div className = "divider2"/>
+        <a href='https://gitlab.oit.duke.edu/bl195'>
         <img className = "gitlab" src ={gitlabpic} alt='gitlabpic'/>
-      </div>
+        </a>
+        </div>
         </div>
       </div>
       </div>
