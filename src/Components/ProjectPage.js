@@ -52,6 +52,9 @@ class ProjectPage extends Component {
           </div>
           </Toolbar>
           </AppBar>
+          <div className = "text-container">
+          <div className = "title-about"> Selected Projects</div>
+          </div>
         </div>
         )
     }

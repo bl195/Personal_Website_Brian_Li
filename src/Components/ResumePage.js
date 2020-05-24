@@ -1,6 +1,8 @@
 import React, {Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import { Toolbar } from '@material-ui/core';
+import resumepic from '../Resources/resume.png';
+import './Styles/ResumePage.css';
 
 class ResumePage extends Component {
     constructor(props){
@@ -35,7 +37,7 @@ class ResumePage extends Component {
     
     render(){
       return (
-        <div className = "wrapper">
+        <div className = "wrapper-resume">
     
           <AppBar className = "appbar" position="static" style={{background: '#4E84F0'}}>
           <Toolbar className = "appbar">
@@ -52,6 +54,10 @@ class ResumePage extends Component {
           </div>
           </Toolbar>
           </AppBar>
+          <div className = "text-container">
+          <div className = "title-about"> My Resume</div>
+          <img className = "resume-image" src={resumepic} alt = "resumepic"/>
+          </div>
             </div>
         )
     }

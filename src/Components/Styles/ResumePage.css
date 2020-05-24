@@ -1,0 +1,25 @@
+.resume-image{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 35cm;
+    width: 25cm;
+    margin-top: 40px;
+}
+
+.wrapper-resume{
+    background: #50a3a2;
+	 background: -webkit-linear-gradient(top left, #4E84F0 0%, #53e3a6 100%);
+	 background: -moz-linear-gradient(top left, #4E84F0 0%, #53e3a6 100%);
+	 background: -o-linear-gradient(top left, #4E84F0 0%, #53e3a6 100%);
+	 background: linear-gradient(to bottom right, #4E84F0 0%, #53e3a6 100%);
+	 position: absolute;
+	 top: 50%;
+	 left: 0;
+	 width: 100%;
+     margin-top: -350px;
+	 overflow: hidden;
+    height:42cm;
+}
