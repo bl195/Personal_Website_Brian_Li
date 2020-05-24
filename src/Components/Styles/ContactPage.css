@@ -1,0 +1,60 @@
+.contact-email{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.contact-phone{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.form-title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.form-email{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.label-text{
+width: 150px;
+}
+
+.form-message{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.label-message{
+    width: 300px;
+    height: 180px;
+}
+
+.email-label{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.message-label{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.submit-button{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+	text-decoration: underline;
+}

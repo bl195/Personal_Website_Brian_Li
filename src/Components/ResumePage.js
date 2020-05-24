@@ -54,11 +54,13 @@ class ResumePage extends Component {
           </div>
           </Toolbar>
           </AppBar>
+          
           <div className = "text-container">
           <div className = "title-about"> My Resume</div>
           <img className = "resume-image" src={resumepic} alt = "resumepic"/>
           </div>
-            </div>
+
+        </div>
         )
     }
 }
