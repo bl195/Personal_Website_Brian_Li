@@ -1,6 +1,7 @@
 import React, {Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import { Toolbar } from '@material-ui/core';
+import './Styles/ProjectPage.css';
 
 class ProjectPage extends Component {
     constructor(props){
@@ -54,6 +55,17 @@ class ProjectPage extends Component {
           </AppBar>
           <div className = "text-container">
           <div className = "title-about"> Selected Projects</div>
+          </div>
+          <div className = "project-container">
+            <div className = "project-title">
+              Covid-19 Resource Coordinator 
+            </div>
+            <div className = "project-title">
+              DukeCheck 
+            </div>
+            <div className = "project-title">
+              Illixir 
+            </div>
           </div>
         </div>
         )
