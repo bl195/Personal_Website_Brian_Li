@@ -1,7 +1,8 @@
 import React, {Component } from 'react';
 
 import AppBar from '@material-ui/core/AppBar';
-import { Toolbar } from '@material-ui/core';
+import { Button, Toolbar } from '@material-ui/core';
+
 import './Styles/ContactPage.css';
 class ContactPage extends Component {
     constructor(props){
@@ -38,7 +39,7 @@ class ContactPage extends Component {
       return (
         <div className = "wrapper">
     
-          <AppBar className = "appbar" position="static" style={{background: '#4E84F0'}}>
+          <AppBar className = "appbar" position="static" style={{background: '#0099ff'}}>
           <Toolbar className = "appbar">
           <div className = "header">
             <div className = "home-button" onClick = {this.onHomeClick}> Home </div>
@@ -76,9 +77,9 @@ class ContactPage extends Component {
               <form className = "form-message">
                     <textarea className = "label-message" type="text" rows = {5}/>  
               </form>
-              <div className = "submit-button">
+              <button className = "submit-button">
                  Submit Message
-              </div>
+              </button>
           </div>
         
         </div>

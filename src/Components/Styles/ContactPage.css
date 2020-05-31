@@ -33,6 +33,7 @@ width: 150px;
 .label-message{
     width: 300px;
     height: 180px;
+    margin-bottom: 10px;
 }
 
 .email-label{
@@ -48,10 +49,9 @@ width: 150px;
 }
 
 .submit-button{
-    text-align: center;
-    margin-top: 20px;
-    font-weight: 1000;
-    font-size: 20px;
+    display: block;
+    max-width: 200px;
+    margin:auto;
 }
 
 .submit-button:hover{

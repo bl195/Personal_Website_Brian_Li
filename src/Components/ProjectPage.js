@@ -38,7 +38,7 @@ class ProjectPage extends Component {
       return (
         <div className = "wrapper">
     
-          <AppBar className = "appbar" position="static" style={{background: '#4E84F0'}}>
+          <AppBar className = "appbar" position="static" style={{background: '#0099ff'}}>
           <Toolbar className = "appbar">
           <div className = "header">
             <div className = "home-button" onClick = {this.onHomeClick}> Home </div>
@@ -57,14 +57,29 @@ class ProjectPage extends Component {
           <div className = "title-about"> Selected Projects</div>
           </div>
           <div className = "project-container">
+            <div className = "uhg-project">
             <div className = "project-title">
               Covid-19 Resource Coordinator 
             </div>
+            <div className = "project-description">
+              The Covid-19 Resource Coordinator is a web application that allocates human resources to the hardest hit Covid-19 areas across the globe.
+            </div>
+            </div>
+            <div className = "dukecheck-project">
             <div className = "project-title">
               DukeCheck 
             </div>
+            <div className = "project-description">
+              DukeCheck is an iOS applcation that allows Duke students and faculty members to discover and check into events held by Duke organizations and departments.
+            </div>
+            </div>
+            <div className = "illixir-project">
             <div className = "project-title">
               Illixir 
+            </div>
+            <div className = "project-description">
+              Illixir is a web application that 
+            </div>
             </div>
           </div>
         </div>

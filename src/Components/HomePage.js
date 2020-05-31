@@ -49,7 +49,7 @@ render(){
   return (
     <div className = "wrapper">
 
-      <AppBar className = "appbar" position="static" style={{background: '#4E84F0'}}>
+      <AppBar className = "appbar" position="static" style={{background: '#0099ff'}}>
       <Toolbar className = "appbar">
       <div className = "header">
         <div className = "home-button" onClick = {this.onHomeClick}> Home </div>

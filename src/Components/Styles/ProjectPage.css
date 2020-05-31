@@ -3,7 +3,12 @@
 }
 
 .project-title{
-    margin-bottom: 150px;
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 80px;
+}
+
+.project-description{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 150px;
 }
