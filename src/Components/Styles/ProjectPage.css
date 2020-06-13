@@ -28,3 +28,14 @@
      margin-top: -350px;
 	 overflow: hidden;
 }
+
+.Project-Images{
+	display: flex;
+	align-items: center;
+	margin-top: -75px;
+	padding-left: 150px;
+}
+
+.handout{
+	height: 17cm;
+}

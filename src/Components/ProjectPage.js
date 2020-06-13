@@ -4,6 +4,15 @@ import { Toolbar } from '@material-ui/core';
 import './Styles/ProjectPage.css';
 import handout from '../Resources/handout.png';
 
+
+/*
+REDO ENTIRE PROJECT PAGE TO INCLUDE LINKS TO SEPARATE PAGES FOR EACH PROJECT
+ADD MORE PROJECTS AS WELL
+*/
+
+
+
+
 class ProjectPage extends Component {
     constructor(props){
         super();
@@ -67,17 +76,17 @@ class ProjectPage extends Component {
             </div>
             </div>
             <div className = "dukecheck-project">
-            <div className = "project-title">
-              DukeCheck 
-            </div>
-            <div className = "project-description">
-              DukeCheck is an iOS application that allows Duke students and faculty members to discover and check into events held by Duke organizations and departments. DukeCheck provides customized event feeds and filtering options for users as well as a personal agenda. This mobile app includes a Duke Shibboleth login feature that provides a layer of security and Ruby on Rails framework to support app backend and requests to server database. Project stakeholders included TransACT, Duke OIT, and Duke Athletics.
-            </div>
-            <div className = "Project-Images">
-              <a href = "">
-              <image className = "handout" src ={handout} alt = "dukecheckhandout"/>
-              </a>
-            </div>
+              <div className = "project-title">
+                DukeCheck 
+              </div>
+              <div className = "project-description">
+                DukeCheck is an iOS application that allows Duke students and faculty members to discover and check into events held by Duke organizations and departments. DukeCheck provides customized event feeds and filtering options for users as well as a personal agenda. This mobile app includes a Duke Shibboleth login feature that provides a layer of security and Ruby on Rails framework to support app backend and requests to server database. Project stakeholders included TransACT, Duke OIT, and Duke Athletics.
+              </div>
+              <div className = "Project-Images">
+                <a href = "">
+                <img className = "handout" src ={handout} alt = "dukecheckhandout"/>
+                </a>
+              </div>
             </div>
             <div className = "illixir-project">
             <div className = "project-title">
