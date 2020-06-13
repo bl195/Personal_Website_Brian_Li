@@ -36,7 +36,7 @@ class ProjectPage extends Component {
     
     render(){
       return (
-        <div className = "wrapper">
+        <div className = "wrapper-project">
     
           <AppBar className = "appbar" position="static" style={{background: '#0099ff'}}>
           <Toolbar className = "appbar">
@@ -70,7 +70,7 @@ class ProjectPage extends Component {
               DukeCheck 
             </div>
             <div className = "project-description">
-              DukeCheck is an iOS applcation that allows Duke students and faculty members to discover and check into events held by Duke organizations and departments.
+              DukeCheck is an iOS application that allows Duke students and faculty members to discover and check into events held by Duke organizations and departments. DukeCheck provides customized event feeds and filtering options for users as well as a personal agenda. This mobile app includes a Duke Shibboleth login feature that provides a layer of security and Ruby on Rails framework to support app backend and requests to server database. Project stakeholders included TransACT, Duke OIT, and Duke Athletics.
             </div>
             </div>
             <div className = "illixir-project">
@@ -78,7 +78,8 @@ class ProjectPage extends Component {
               Illixir 
             </div>
             <div className = "project-description">
-              Illixir is a web application that 
+              Illixir is a web application developed with the MERN stack and has two main features: a facility finder and a remedy repository. 
+              The Facility Finder connects users to nearby medical facilities and the remedy repository provides users with home remedies for mild illnesses.
             </div>
             </div>
           </div>

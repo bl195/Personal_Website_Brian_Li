@@ -2,7 +2,9 @@ import React, {Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import { Toolbar } from '@material-ui/core';
 import './Styles/AboutPage.css'
-
+import dukecs from '../Resources/duke-cs-logo.jpg';
+import hackduke from '../Resources/hackduke.png';
+import catalyst from '../Resources/catalyst.png';
 class AboutPage extends Component {
     constructor(props){
         super();
@@ -57,6 +59,19 @@ class AboutPage extends Component {
           <div className = "title-about"> About me</div>
           <div className = "intro">
                 I am currently a junior at Duke University and I am pursuing a B.S. in Computer Science (concentration in Software Systems) and Mathematics. I am passionate about web and mobile app development and am motivated to create technology for social good. I am a tech team lead for HackDuke, the world's premiere hackathon for social good, and am also an active member of Catalyst, the pre-professional society for tech students at Duke. Aside from my professional and academic endeavors, I am an avid bodybuilder/powerlifter, violinist, and foodie.
+          </div>
+          <div className = "images">
+            <a href='https://www.cs.duke.edu/'>
+              <img className = "dukecs" src ={dukecs} alt='dukecs'/>
+            </a>
+            <div className = "divider"/>
+            <a href='https://hackduke.org/'>
+              <img className = "hackduke" src ={hackduke} alt='hackduke'/>
+            </a>
+            <div className = "divider"/>
+            <a href='https://dukecatalyst.co/'>
+              <img className = "catalyst" src ={catalyst} alt='catalyst'/>
+            </a>
           </div>
           </div>
         </div>

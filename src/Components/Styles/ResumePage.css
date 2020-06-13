@@ -10,16 +10,16 @@
 }
 
 .wrapper-resume{
-    background: #50a3a2;
-	 background: -webkit-linear-gradient(top left, #4E84F0 0%, #53e3a6 100%);
-	 background: -moz-linear-gradient(top left, #4E84F0 0%, #53e3a6 100%);
-	 background: -o-linear-gradient(top left, #4E84F0 0%, #53e3a6 100%);
-	 background: linear-gradient(to bottom right, #4E84F0 0%, #53e3a6 100%);
+    background: #85e7ee;
+	 background: -webkit-linear-gradient(top left, rgb(53, 100, 196) 0%, #85e7ee 100%);
+	 background: -moz-linear-gradient(top left, rgb(53, 100, 196) 0%, #85e7ee 100%);
+	 background: -o-linear-gradient(top left, rgb(53, 100, 196) 0%, #85e7ee 100%);
+	 background: linear-gradient(to bottom right, rgb(53, 100, 196) 0%, #85e7ee 100%);
 	 position: absolute;
 	 top: 50%;
 	 left: 0;
 	 width: 100%;
+	 height: 42cm;
      margin-top: -350px;
-	 overflow: hidden;
-    height:42cm;
+     overflow: hidden;
 }
