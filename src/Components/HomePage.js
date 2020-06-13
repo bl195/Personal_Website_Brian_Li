@@ -102,5 +102,4 @@ render(){
   );
  }
 }
-
 export default HomePage;

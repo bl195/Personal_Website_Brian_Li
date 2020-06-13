@@ -2,6 +2,7 @@ import React, {Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import { Toolbar } from '@material-ui/core';
 import './Styles/ProjectPage.css';
+import handout from '../Resources/handout.png';
 
 class ProjectPage extends Component {
     constructor(props){
@@ -71,6 +72,11 @@ class ProjectPage extends Component {
             </div>
             <div className = "project-description">
               DukeCheck is an iOS application that allows Duke students and faculty members to discover and check into events held by Duke organizations and departments. DukeCheck provides customized event feeds and filtering options for users as well as a personal agenda. This mobile app includes a Duke Shibboleth login feature that provides a layer of security and Ruby on Rails framework to support app backend and requests to server database. Project stakeholders included TransACT, Duke OIT, and Duke Athletics.
+            </div>
+            <div className = "Project-Images">
+              <a href = "">
+              <image className = "handout" src ={handout} alt = "dukecheckhandout"/>
+              </a>
             </div>
             </div>
             <div className = "illixir-project">
