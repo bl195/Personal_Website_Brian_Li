@@ -3,14 +3,13 @@ import AppBar from '@material-ui/core/AppBar';
 import { Toolbar } from '@material-ui/core';
 import './Styles/ProjectPage.css';
 import handout from '../Resources/handout.png';
+import poster from '../Resources/poster.jpeg';
 
 
 /*
 REDO ENTIRE PROJECT PAGE TO INCLUDE LINKS TO SEPARATE PAGES FOR EACH PROJECT
 ADD MORE PROJECTS AS WELL
 */
-
-
 
 
 class ProjectPage extends Component {
@@ -86,6 +85,10 @@ class ProjectPage extends Component {
                 <a href = "">
                 <img className = "handout" src ={handout} alt = "dukecheckhandout"/>
                 </a>
+                <div className = "divider2"/>
+                <a href = "">
+                <img className = "poster" src ={poster} alt = "poster"/>
+                </a>
               </div>
             </div>
             <div className = "illixir-project">
@@ -95,6 +98,14 @@ class ProjectPage extends Component {
             <div className = "project-description">
               Illixir is a web application developed with the MERN stack and has two main features: a facility finder and a remedy repository. 
               The Facility Finder connects users to nearby medical facilities and the remedy repository provides users with home remedies for mild illnesses.
+            </div>
+            </div>
+            <div className = "hackduke-project">
+            <div className = "project-title">
+              HackDuke Code For Good Mobile App 
+            </div>
+            <div className = "project-description">
+              The Code For Good mobile application serves to aid attendees of HackDuke's premiere hackathon by providing users with interactive schedules, check-in capabilities, directional maps, and a list of frequently asked questions.  
             </div>
             </div>
           </div>
